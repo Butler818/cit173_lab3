@@ -1,0 +1,6 @@
+  PID TTY          TIME CMD
+ 1439 tty1     00:00:00 bash
+ 4738 tty1     00:00:00 sudo
+ 4739 tty1     00:00:00 bash
+ 5437 tty1     00:00:00 python3
+17927 tty1     00:00:00 ps

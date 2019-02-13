@@ -1,0 +1,86 @@
+    1  pwd
+    2  cd cit173_lab3
+    3  cd C
+    4  cd CIT173_Lab3
+    5  cd ~/home/bodrick/cit173_lab3
+    6  cd home/cit173_lab3
+    7  ls -l ~/home/bodrick
+    8  ls -l
+    9  whoami
+   10  ls /
+   11  ls /home/
+   12  ls /home/bodrick
+   13  cd /home/bodrick/cit173_lab3
+   14  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+   15  cat my-phonebook.txt
+   16  man sed
+   17  sed -i/575/775/ my-phonebook.txt
+   18  sed -i/575/775/ /my-phonebook.txt
+   19  sed -i 's/575/775/' my-phonebook.txt
+   20  cat my-phonebook.txt 
+   21  man apt
+   22  apt install python3-minimal
+   23  apt list
+   24  man apt
+   25  apt list --installed
+   26  apt list --installed > my-installed-1.txt
+   27  hello.py > my-python-output.txt
+   28  run script hello.py > my-python-output.txt
+   29  python3 hello.py > my-python-output.txt
+   30  apt install python3
+   31  cd cit173_lab3_files
+   32  cd cit173_lab3_Files
+   33  ls cit173_lab3
+   34  ls
+   35* cd ...
+   36  ls
+   37  cd CIT173_Lab3_Files
+   38  rm -f ~/cit173_lab3/my-python-output.txt
+   39  python3 hello.py > ~/cit173_lab3/my-python-output.txt
+   40  python3 hello.py > ~home/bodrick/cit173_lab3/my-python-output.txt
+   41  python3 hello.py > ~/home/bodrick/cit173_lab3/my-python-output.txt
+   42  ls
+   43  python3 hello.py > ~/cit173_lab3/"my-python-output.txt"
+   44  ls
+   45  python3 hello.py
+   46  python3 hello.py | cat > ~/cit173_lab3/my-python-output.txt
+   47  ls
+   48  cd ..
+   49  ls
+   50* cat cit173_lab3
+   51  cd CIT173_Lab3_Files
+   52  python3 hello.py | > ~/cit173_lab3/my-python-output.txt
+   53  python3 hello.py > ~/cit173_lab3/my-python-output.txt
+   54  cd
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd home
+   59  ls
+   60  cd bodrick
+   61  ls
+   62  cd ~/bodrick/CIT_Lab3_Files
+   63  cd CIT173_Lab3_Files
+   64  sudo python3 hello.py > /home/bodrick/cit173_lab3/'my-python-output.txt'
+   65  man python3
+   66  python3 infinite.py &
+   67  ps
+   68  sudo kill 5433
+   69  python3 infinite.py &
+   70  ps > ~/cit173_lab3/'my-processes-1.txt'
+   71  ps -a > ~/cit173_lab3/'my-processes-1.txt'
+   72  ps > ~/bodrick/cit173_lab3/'my-processes-1.txt'
+   73  cd ..
+   74  ps -a > /root/bodrick/cit173_lab3/'my-processes-1.txt'
+   75  cd /
+   76  ls
+   77  cd /home/bodrick/cit173_lab3
+   78  ps -a > /home/bodrick/cit173_lab3/'my-processes-1.txt'
+   79  ps
+   80  kill 5437
+   81  ps -a > /home/bodrick/cit173_lab3/'my-processes-2.txt'
+   82  apt uninstall python3
+   83  man apt
+   84  apt remove python3-minimal
+   85  apt list --installed > /home/bodrick/cit173_lab3/'my-installed-2.txt'
+   86  history > /home/bodrick/cit173_lab3/'my-command-history.txt'
